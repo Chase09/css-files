@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Images and Sprites</title>
+</head>
+<body>
+    <style>
+        #companyLogo {
+            background: url("images/Amazon-spritesheet.png") -3px -247px;
+            width: 220px;
+            height: 76px;
+        }
+
+        .div{
+            text-align:center;
+            margin-top:-86px;
+        }
+
+        #newLogo{
+            background: url("images/Amazon-spritesheet.png") -570px -256px;
+            width:168px;
+            height:52px;
+            float:right;
+            margin-top:-60px;
+        }
+
+        nav {
+            margin:0px;
+            padding:8px;
+            resize:both;
+            overflow:auto;
+            width:calc(100% - 16px);
+        }
+
+            nav ul {
+                list-style-type: none;
+                padding:0px;
+                margin:0px;
+                list-style:none;
+
+            }
+
+            nav li {
+                height: 30px;
+                display: inline-block;
+            }
+
+            nav a{
+                padding:5px;
+                margin:4px;
+                border:2px solid black;
+                color:#2A2A2A;
+                float:left;
+            }
+
+        .nav {
+            padding: 5px;
+            margin: 4px;
+            border: 2px solid black;
+            background-color: #eeffee;
+            color: darkgreen;
+            border-radius: 10px;
+            text-align: center;
+            float: left;
+        }
+        nav a:hover{
+            color:white;
+            background-color:#2A2A2A;;
+        }
+    </style>
+    <header>
+        <div id="companyLogo">
+
+        </div>
+        <div class="div">
+            <h1>Playing With Image Sprites</h1>
+        </div>
+        <div id="newLogo">
+
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a class="nav" href="inline-css.html">Home</a></li>
+            <li><a class="nav" href="internal-css.html">Internal CSS Page</a></li>
+            <li><a class="nav" href="external-css.html">External CSS Page</a></li>
+            <li><a class="nav" href="testing-cascading.html">Testing Cascading Page</a></li>
+            <li><a class="nav" href="classes-and-ids.html">Classes and IDs Page</a></li>
+            <li><a class="nav" href="div-and-span.html">Div and Span</a></li>
+            <li><a class="nav" href="backgrounds-and-texts.html">Backrounds and Texts</a></li>
+            <li><a class="nav" href="floating-and-positioning.html">Floating and Positioning</a></li>
+            <li><a class="nav" href="images-and-sprites.html">Images and Sprites</a></li>
+            <li><a class="nav" href="gradients.html">Gradients Page</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
